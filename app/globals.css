@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/*
+  Palette, grounded in the reference photo: an old Haryana Roadways bus
+  (destination-board blue and white) against a sun-bleached, dusty gold street.
+  Amber is the one accent color — it's what the destination board, the play
+  button, and the seek bar all share, so the eye reads them as one system.
+*/
+@theme {
+  --color-ink: #0b0f1a;
+  --color-amber: #e8a33d;
+  --color-amber-dim: #b97c22;
+  --color-dust: #cbb99c;
+  --color-roadways: #2f5f8f;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-ink);
+  color: #fff;
+}
+
+/* Background scene: landscape by default, a separately composed portrait
+   scene under orientation:portrait (never a crop of the landscape one). */
+.hero-bg {
+  background-image: url("/bg/scene-wide.png");
+}
+@media (orientation: portrait) {
+  .hero-bg {
+    background-image: url("/bg/scene-tall.png");
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.vinyl-spin {
+  animation: spin 8s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start infinite;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vinyl-spin,
+  .blink {
+    animation: none;
+  }
+}
