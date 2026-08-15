@@ -11,7 +11,7 @@ function nextCount(current: number) {
 }
 
 export default function ListenerCount() {
-  const [count, setCount] = useState(482);
+  const [count, setCount] = useState(500);
 
   useEffect(() => {
     const id = setInterval(() => setCount((c) => nextCount(c)), 4000);
