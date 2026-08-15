@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Haryana Roadways Radio",
-  description: "A late-night radio dial for songs that still know the way home.",
+  description: "haryana roadways radio is a free online radio station that plays haryana roadways songs and music.",
 };
 
 export const viewport: Viewport = {
