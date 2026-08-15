@@ -3,7 +3,8 @@ import Link from "next/link";
 // Placeholder hrefs — point these at your real profiles.
 const links = [
   { label: "Instagram", href: "https://www.instagram.com/__a.k.a_saubhik__?igsh=azg2ejRvYWVqcnll" },
-  { label: "YouTube", href: "#" },
+  { label: "Twitter", href: "https://twitter.com/@Sarcastiqmonc" },
+  { label: "Collaborators", href: "https://www.instagram.com/omm__4u?igsh=MTVxN2x6bDU4ZXhmbQ==" },
 ];
 
 export default function SocialLinks() {
