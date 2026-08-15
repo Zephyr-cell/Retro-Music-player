@@ -5,7 +5,7 @@ import { manrope } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Thikane — Nostalgia Radio",
+  title: "Haryana Roadways Radio",
   description: "A late-night radio dial for songs that still know the way home.",
 };
 
