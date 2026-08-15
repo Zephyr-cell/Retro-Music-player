@@ -2,7 +2,7 @@ import Link from "next/link";
 
 // Placeholder hrefs — point these at your real profiles.
 const links = [
-  { label: "Instagram", href: "#" },
+  { label: "Instagram", href: "https://www.instagram.com/__a.k.a_saubhik__?igsh=azg2ejRvYWVqcnll" },
   { label: "YouTube", href: "#" },
 ];
 
