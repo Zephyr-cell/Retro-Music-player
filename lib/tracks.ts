@@ -33,10 +33,29 @@ function track(
 const dhandaNyoliwalaTitles: [string, string][] = [
   ["Afghan", "HIP5uQ622HA"],
   ["No Mercy", "pb-NGCQS_CU"],
-  ["Ishq", "s0bJkT5EyTc"],
+  ["Ishq Bawla", "s0bJkT5EyTc"],
   ["Vomit on Paper", "wzN4pApVUoo"],
   ["Up To U", "T0H_LWLiOGk"],
-  ["Russian Bandana", "1OAjeECW90E"]
+  ["Russian Bandana", "1OAjeECW90E"],
+  ["Boom Shaka laka", "cL0KKSPjZf8"],
+  ["Not Guilty","E7ergOnpO1Q"],
+  ["Maruti","_ijaEtNzZgw"],
+  ["Tension","bgGH0wcjUOA"],
+  ["No Fluke","fs0CcSN_VDw"],
+  ["Black Ride","67sWVZSuXnM"],
+  ["Big Plans","xYUx6bsBXg8"],
+  ["Zigane","bUk1YcCPfpQ"],
+  ["Dil De Baithi","ZPa9YPL60Tw"],
+  ["Paradox","mWEr1Ait5Xw"],
+  ["Nobody Came","wPzzphowuA0"],
+  ["Balkan Girl","RM6aaGzodwk"],
+  ["Forever","aElJNueyYT4"],
+  ["La La La","YsB4Vhlv8ns"],
+  ["Death Row","jqAksRg_rkc"],
+  ["Jat Clan","jZ5jdYNBm3s"],
+  ["Surrey BC","JdhShwuHSks"],
+  ["Bonjour","4hyQU3_1j8Q"],
+  ["Knife Brows","69-yupf0pAY"],
 ];
 
 const vikramSarkarTitles: [string, string][] = [
